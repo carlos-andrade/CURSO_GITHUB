@@ -1,17 +1,33 @@
 # Registo de progresso
 
-> Projeto: CURSO_GITHUB | Tipo: registo individual
+> **Cabeçalho histórico**  
+> Projeto: CURSO_GITHUB  
+> Repositório oficial: https://github.com/carlos-andrade/CURSO_GITHUB  
+> Tipo: registo individual de aprendizagem  
+> Estado: modelo reutilizável.
 
 - Data:
-- Módulo/lição:
-- Estado: planeado / em execução / executado / validado
+- Módulo/lição/exercício:
+- Estado: planeado / em execução / executado — por validar / validado / bloqueado
 - Repositório de treino:
+- Branch e caminho, quando aplicável:
 - Objetivo:
+- Pré-requisitos confirmados:
 - Operações realizadas:
 - Resultado esperado:
 - Resultado observado:
-- Evidência:
-- Dificuldades e solução:
+- Evidência não sensível (URL, commit, Issue, PR ou execução):
+- Critérios cumpridos:
+- Erros encontrados e mensagem expurgada de segredos:
+- Causa identificada:
+- Solução testada:
 - Próxima ação:
 
-Marcar como validado apenas depois de verificar o resultado.
+## Verificação final
+
+- [ ] O resultado foi observado diretamente.
+- [ ] A evidência aponta para o resultado correto.
+- [ ] Não foram incluídos tokens, palavras-passe, dados pessoais desnecessários ou informação privada.
+- [ ] O estado corresponde ao trabalho realmente executado.
+
+Marcar como **validado** apenas depois de verificar o resultado e cumprir todos os critérios. Se não foi possível executar a prática, indicar explicitamente essa limitação.
