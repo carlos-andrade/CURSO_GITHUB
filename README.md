@@ -102,3 +102,8 @@ O curso termina quando o projeto final passa a checklist em [`12_PROJETO_FINAL/C
 ## Estado atual
 
 A estrutura curricular está publicada. O módulo 00 recebeu reforço de método, preparação, progressão e diagnóstico; os módulos 01 e 02 foram expandidos com práticas, exercícios e critérios de aceitação. O workflow de validação documental passou nas execuções observadas. **A prática do aluno, a revisão factual completa e os restantes módulos ainda exigem validação; não são considerados testados apenas por estarem no repositório.** O estado de cada fase deve ser atualizado no roadmap.
+
+
+## Escala persistente de conclusão
+
+A pasta [`STATUS DE CONCLUSÃO`](STATUS%20DE%20CONCLUS%C3%83O/README.md) mantém a escala oficial de desenvolvimento de 0 a 100, a rubrica de pontuação e o histórico das medições. **No final de cada chat deste projeto, apresentar a barra de progresso atualizada**, a percentagem, a variação desde a medição anterior e a próxima prioridade. Atualizar a escala com base em evidências reais; não confundir ficheiros criados com conteúdo validado.
