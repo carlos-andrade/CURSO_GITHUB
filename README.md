@@ -84,6 +84,10 @@ A sequência é **compreender → executar → verificar → registar → explic
 
 Cada lição deve conter resultado esperado, pré-requisitos, conceitos, prática guiada, exercício autónomo, resultado observável, critérios de aceitação, erros frequentes, evidência, vocabulário e fontes oficiais. Usar [`MODELOS/MODELO_LICAO.md`](MODELOS/MODELO_LICAO.md).
 
+## Verificação automática
+
+O workflow [Validar documentação do curso](.github/workflows/validar-curso.yml) é executado em pushes para `main` e em Pull Requests destinados a `main`. O script [`scripts/validar_curso.py`](scripts/validar_curso.py) verifica títulos H1, ficheiros Markdown não vazios e destinos de ligações locais. Isto reduz erros estruturais, mas não substitui a revisão factual nem a execução prática das lições.
+
 ## Avaliação e conclusão
 
 O curso termina quando o projeto final passa a checklist em [`12_PROJETO_FINAL/CRITERIOS_ACEITACAO.md`](12_PROJETO_FINAL/CRITERIOS_ACEITACAO.md), as evidências estão guardadas e o registo final foi preenchido. Consultar [`REGISTOS/ROADMAP_E_ESTADO.md`](REGISTOS/ROADMAP_E_ESTADO.md) para o estado real das entregas.
@@ -97,4 +101,4 @@ O curso termina quando o projeto final passa a checklist em [`12_PROJETO_FINAL/C
 
 ## Estado atual
 
-A estrutura curricular está publicada. O módulo 00 recebeu reforço de método, preparação, progressão e diagnóstico. **As restantes lições ainda exigem revisão sistemática e validação prática; não são consideradas testadas apenas por estarem no repositório.** O estado de cada fase deve ser atualizado no roadmap.
+A estrutura curricular está publicada. O módulo 00 recebeu reforço de método, preparação, progressão e diagnóstico; os módulos 01 e 02 foram expandidos com práticas, exercícios e critérios de aceitação. O workflow de validação documental passou nas execuções observadas. **A prática do aluno, a revisão factual completa e os restantes módulos ainda exigem validação; não são considerados testados apenas por estarem no repositório.** O estado de cada fase deve ser atualizado no roadmap.
