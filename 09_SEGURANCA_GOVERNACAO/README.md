@@ -1,13 +1,25 @@
 # 09 — Segurança e governação
 
-> Projeto: CURSO_GITHUB | Módulo 09 | Estado: estrutura inicial
+> **Cabeçalho histórico**  
+> Projeto: CURSO_GITHUB  
+> Repositório: https://github.com/carlos-andrade/CURSO_GITHUB  
+> Módulo: 09 — Segurança e governação  
+> Finalidade: proteger o acesso, a branch principal, as credenciais e a cadeia de automatização.  
+> Estado: lições desenvolvidas; auditoria prática pendente.  
+> Última atualização: 2026-10-09.
 
-## Conteúdo
-Visibilidade, permissões, proteção de branches, regras de merge, segredos, dependências, auditoria e resposta a incidentes.
+## Sequência de lições
 
-## Exercício
-Auditar um repositório de treino: visibilidade, colaboradores, workflows, regras e ficheiros em busca de credenciais acidentais.
+1. [Branches protegidas, permissões e segredos](01_BRANCHES_PERMISSOES_SEGREDOS.md)
+2. [Dependências, alertas e resposta a incidentes](02_DEPENDENCIAS_E_INCIDENTES.md)
 
-Nunca publicar tokens. Se um segredo real for exposto, revogá-lo/rodá-lo; apagar o ficheiro isoladamente pode não removê-lo do histórico.
+## Critérios de conclusão
 
-Referência: https://docs.github.com/en/code-security
+- [ ] Explicar o princípio do menor privilégio.
+- [ ] Identificar regras da branch principal e checks obrigatórios.
+- [ ] Distinguir secrets de ficheiros versionados.
+- [ ] Explicar o que fazer quando um segredo é exposto.
+- [ ] Rever dependências e alertas disponíveis.
+- [ ] Registar riscos e medidas sem publicar informação sensível.
+
+Referência oficial: https://docs.github.com/en/code-security
