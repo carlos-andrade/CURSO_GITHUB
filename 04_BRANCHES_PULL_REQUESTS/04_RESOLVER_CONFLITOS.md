@@ -25,14 +25,14 @@ Um conflito ocorre quando Git não consegue combinar automaticamente alteraçõe
 2. Confirme a branch de trabalho: `git branch --show-current`.
 3. Integre a base pretendida, usando a estratégia definida pelo projeto. Exemplo, se a equipa usa merge:
    `git merge origin/main`
-4. Se houver conflito, execute `git status) e identifique os ficheiros marcados.
+4. Se houver conflito, execute `git status` e identifique os ficheiros marcados.
 5. Abra cada ficheiro e localize os marcadores `<<<<<<<`, `=======` e `>>>>>>>`.
 6. Compare as duas versões e produza o conteúdo final correto. Não elimine marcadores sem decidir o conteúdo.
 7. Remova todos os marcadores, guarde o ficheiro e reveja-o integralmente.
 8. Execute as verificações adequadas e confirme o diff.
 9. Marque o ficheiro como resolvido com `git add caminho/do/ficheiro`.
 10. Termine o merge com `git commit` apenas quando o estado e a mensagem do Git indicarem que é necessário.
-11. Confirme `git status) e publique a branch se for apropriado.
+11. Confirme `git status` e publique a branch se for apropriado.
 
 Se a estratégia usada for rebase, os comandos e a forma de continuar são diferentes. Não misture procedimentos de merge e rebase; siga a política do projeto.
 
