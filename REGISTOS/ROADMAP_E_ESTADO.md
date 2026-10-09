@@ -61,6 +61,7 @@ A validação automática de Markdown não prova que uma pessoa executou todos o
 - Desenvolvidas duas lições do módulo 10 sobre releases/tags e publicação com GitHub Pages.
 - Desenvolvidas duas lições do módulo 11 sobre REST API, autenticação e automação sustentável.
 - Atualizados os índices dos módulos 10–11 com critérios de conclusão.
+- Expandida a especificação do projeto final, com fases, entregáveis e critérios verificáveis.
 - A execução real dos exercícios por uma pessoa continua pendente; publicação de conteúdo não é prova de teste prático.
 
 ## Próximas ações
@@ -68,14 +69,14 @@ A validação automática de Markdown não prova que uma pessoa executou todos o
 1. Confirmar o resultado final do workflow após as alterações dos módulos 10–11.
 2. Rever ligações, sintaxe, segurança e precisão das lições 04–11.
 3. Executar os exercícios dos módulos 01–11 num repositório de treino e guardar evidências; não marcar como testados antes da execução.
-4. Preparar o módulo 12 e o projeto final com entregáveis e critérios verificáveis.
+4. Executar o projeto final num repositório de treino e preencher o relatório com evidências.
 5. Completar a auditoria global e corrigir problemas encontrados.
 
 ## Indicador global de conclusão
 
 - Escala oficial: [STATUS DE CONCLUSÃO/ESCALA_DE_CONCLUSAO.md](../STATUS%20DE%20CONCLUS%C3%83O/ESCALA_DE_CONCLUSAO.md).
 - Medição anterior: 51/100 — 51%.
-- Medição atual: **53/100 — 53%**.
-- Barra: `██████████████████████████▌░░░░░░░░░░░░░░░░░░░░░░░` **53%** (50 posições; 26 completas + meia posição representam 53%).
-- Variação: **+2 pontos**, atribuídos ao desenvolvimento dos módulos 10–11; não foram atribuídos pontos por teste prático humano.
+- Medição atual: **54/100 — 54%**.
+- Barra: `███████████████████████████░░░░░░░░░░░░░░░░░░░░░░░` **54%** (50 posições; 27 completas representam 54%).
+- Variação: **+3 pontos**: +2 pelo desenvolvimento dos módulos 10–11 e +1 pela especificação verificável do projeto final; não foram atribuídos pontos por teste prático humano.
 - Regra: apresentar a barra no final de cada chat do projeto e alterar a pontuação apenas quando existirem evidências de progresso ou regressão.
