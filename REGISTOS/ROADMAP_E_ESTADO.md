@@ -57,3 +57,11 @@ A validação automática de Markdown não prova que uma pessoa executou todos o
 2. Aplicar o mesmo padrão aos módulos 04–07, incluindo branch, Pull Request, Issue, Markdown e revisão.
 3. Prosseguir módulo a módulo, mantendo evidências e atualizando este roadmap após cada validação real.
 4. Fazer auditoria final de links, precisão, segurança, acessibilidade e navegação.
+
+
+## Indicador global de conclusão
+
+- Escala oficial: [`STATUS DE CONCLUSÃO/ESCALA_DE_CONCLUSAO.md`](../STATUS%20DE%20CONCLUS%C3%83O/ESCALA_DE_CONCLUSAO.md).
+- Medição inicial: **46/100 — 46%** em 2026-10-09.
+- Barra: `█████████░░░░░░░░░░░` **46%**.
+- Regra: apresentar a barra no fim de cada chat do projeto e alterar a pontuação apenas quando existirem evidências de progresso ou regressão.
