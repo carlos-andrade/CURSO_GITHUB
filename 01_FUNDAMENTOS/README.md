@@ -1,22 +1,36 @@
 # 01 — Fundamentos de Git e GitHub
 
-> Projeto: CURSO_GITHUB | Módulo 01 | Estado: estrutura inicial
+> **Cabeçalho histórico**  
+> Projeto: CURSO_GITHUB  
+> Repositório oficial: https://github.com/carlos-andrade/CURSO_GITHUB  
+> Módulo: 01 — Fundamentos  
+> Finalidade: construir o vocabulário e o fluxo de trabalho usados nos módulos seguintes.  
+> Estado: lições reforçadas; prática individual pendente.
 
-## Objetivos
-Distinguir controlo de versões, Git e GitHub; compreender repositórios, ficheiros rastreados, commits, branches, remotos e histórico.
+## Resultado do módulo
 
-## Lições
-- `01_GIT_E_GITHUB.md`
-- `02_REPOSITORIOS_COMMITS_BRANCHES.md`
-- `03_FLUXO_BASICO.md`
+O aluno consegue distinguir Git de GitHub, identificar repositórios, commits, branches e diffs, e concluir uma pequena alteração pela interface web.
 
-## Exercício
-Criar um repositório de treino, adicionar um ficheiro, registar uma alteração e identificar o commit correspondente.
+## Ordem das lições
+
+1. [`01_GIT_E_GITHUB.md`](01_GIT_E_GITHUB.md) — conceitos e navegação pelo histórico.
+2. [`02_REPOSITORIOS_COMMITS_BRANCHES.md`](02_REPOSITORIOS_COMMITS_BRANCHES.md) — commits, branches e leitura de diff.
+3. [`03_FLUXO_BASICO.md`](03_FLUXO_BASICO.md) — alteração, commit e verificação do resultado.
+
+## Prática integradora
+
+Executar [`EX-001`](../EXERCICIOS/EX-001-PRIMEIRO-REPOSITORIO.md) e [`EX-002`](../EXERCICIOS/EX-002-COMMIT-E-HISTORICO.md) num repositório de treino.
 
 ## Critérios de conclusão
-- [ ] Explicar Git vs. GitHub.
-- [ ] Explicar o que um commit representa.
-- [ ] Distinguir branch principal e branch de trabalho.
-- [ ] Localizar o histórico de alterações.
 
-Referências: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F e https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories
+- [ ] Explicar a diferença entre Git e GitHub.
+- [ ] Localizar um README, uma branch e o histórico.
+- [ ] Criar ou editar um ficheiro e guardar um commit.
+- [ ] Abrir um diff e explicar a alteração.
+- [ ] Confirmar que o resultado publicado corresponde ao pretendido.
+- [ ] Registar evidências e não expor dados sensíveis.
+
+## Referências
+
+- GitHub Docs — https://docs.github.com/
+- Git Book — https://git-scm.com/book/
