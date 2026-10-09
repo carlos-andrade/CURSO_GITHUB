@@ -12,7 +12,7 @@
 
 **Conclusão estimada: 49/100 — 49%.**
 
-`████████████████████████▌░░░░░░░░░░░░░░░░░░░░░░░░` **49%**
+`████████████████████████▌░░░░░░░░░░░░░░░░░░░░░░░░░` **49%**
 
 A barra é uma representação visual aproximada; a percentagem numérica e a rubrica são a referência. Este valor mede a preparação do curso como produto completo, não o progresso de uma sessão nem a aprendizagem individual. Conteúdo escrito não significa conteúdo testado.
 
