@@ -25,7 +25,7 @@ A validação automática de Markdown não prova que uma pessoa executou todos o
 | P0 | Padrão editorial e método | Modelo de lição, critérios e registos consistentes | Publicado |
 | P1 | Módulo 00 | Preparação, estudo, progressão e diagnóstico para iniciantes | Conteúdo publicado; prática do aluno pendente |
 | P2 | Módulos 01–02 | Lições web com passos, critérios e evidências | Conteúdo reforçado; prática do aluno pendente |
-| P3 | Módulo 03 | Comandos testados, contexto explícito e recuperação segura | Pendente de revisão e teste |
+| P3 | Módulo 03 | Comandos testados, contexto explícito e recuperação segura | Lições reforçadas; execução local e teste do aluno pendentes |
 | P4 | Módulos 04–07 | Fluxo branch/PR, Issues, Markdown e revisão demonstrados | Pendente de revisão e teste |
 | P5 | Módulos 08–09 | Workflows e práticas de segurança verificados | Pendente de revisão e teste |
 | P6 | Módulos 10–11 | Publicação, API e automação com limites claros | Pendente de revisão e teste |
@@ -46,13 +46,14 @@ A validação automática de Markdown não prova que uma pessoa executou todos o
 - Desenvolvidos o plano de estudo e o guia de resolução de problemas.
 - Criado um modelo editorial reutilizável para lições.
 - Reforçadas as lições dos módulos 01 e 02 com resultados esperados, práticas guiadas, exercícios autónomos e critérios objetivos.
+- Reforçadas as quatro lições do módulo 03 com passos explícitos, exemplos de comandos, verificações e avisos de recuperação segura.
 - Criado o exercício integrador EX-007 para construir um README útil.
 - Melhorados os modelos e os registos de progresso.
-- Adicionado um workflow de validação documental; as primeiras execuções detetaram um modelo sem título H1, que foi corrigido. A execução posterior passou.
+- Adicionado um workflow de validação documental; as primeiras execuções detetaram um modelo sem título H1, que foi corrigido. As execuções posteriores passaram.
 
 ## Próximas ações
 
-1. Rever e testar as lições e exercícios dos módulos 01–02 num repositório de treino.
-2. Aplicar o mesmo padrão ao módulo 03, com comandos e resultados esperados verificados.
+1. Rever e testar as lições e exercícios dos módulos 01–03 num repositório de treino.
+2. Aplicar o mesmo padrão aos módulos 04–07, incluindo branch, Pull Request, Issue, Markdown e revisão.
 3. Prosseguir módulo a módulo, mantendo evidências e atualizando este roadmap após cada validação real.
 4. Fazer auditoria final de links, precisão, segurança, acessibilidade e navegação.
