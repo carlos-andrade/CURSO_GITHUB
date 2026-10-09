@@ -76,6 +76,6 @@ A validação automática de Markdown não prova que uma pessoa executou todos o
 - Escala oficial: [STATUS DE CONCLUSÃO/ESCALA_DE_CONCLUSAO.md](../STATUS%20DE%20CONCLUS%C3%83O/ESCALA_DE_CONCLUSAO.md).
 - Medição anterior: 51/100 — 51%.
 - Medição atual: **53/100 — 53%**.
-- Barra: `███████████████` **53%** (barra de 50 posições definida no ficheiro de escala; manter a barra oficial sincronizada na revisão final).
+- Barra: `██████████████████████████▌░░░░░░░░░░░░░░░░░░░░░░░` **53%** (50 posições; 26 completas + meia posição representam 53%).
 - Variação: **+2 pontos**, atribuídos ao desenvolvimento dos módulos 10–11; não foram atribuídos pontos por teste prático humano.
 - Regra: apresentar a barra no final de cada chat do projeto e alterar a pontuação apenas quando existirem evidências de progresso ou regressão.
