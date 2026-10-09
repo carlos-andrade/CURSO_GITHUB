@@ -12,7 +12,7 @@
 
 **Conclusão estimada: 46/100 — 46%.**
 
-`█████████░░░░░░░░░░░` **46%**
+`███████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░` **46%**
 
 Este valor mede a preparação do curso como produto completo, e não o progresso de uma sessão, a quantidade de ficheiros ou a aprendizagem individual do aluno. É uma estimativa baseada nos critérios abaixo. Não significa que 46% de todos os conteúdos estejam testados.
 
