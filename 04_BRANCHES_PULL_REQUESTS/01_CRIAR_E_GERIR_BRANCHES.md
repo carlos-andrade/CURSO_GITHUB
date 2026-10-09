@@ -26,7 +26,7 @@ Uma branch não é uma cópia independente completa do repositório. É uma refe
 1. Abra o repositório de treino e confirme o nome e a branch atual.
 2. Abra o seletor de branches.
 3. Introduza um nome descritivo, por exemplo `docs/primeira-alteracao`.
-4. Crie a branch a partir de `main), depois de confirmar que essa é a base pretendida.
+4. Crie a branch a partir de `main`, depois de confirmar que essa é a base pretendida.
 5. Faça uma alteração pequena num ficheiro de treino e confirme que a interface indica a branch de trabalho.
 6. Registe o nome da branch e o commit de base no relatório do exercício.
 
@@ -70,7 +70,7 @@ Se criou a branch errada, não apague alterações sem as inspecionar. Execute `
 
 ## Evidência a guardar
 
-Nome da branch, base usada, saída de `git branch --show-current`, resumo de `git status) e captura de ecrã ou ligação para a branch publicada.
+Nome da branch, base usada, saída de `git branch --show-current`, resumo de `git status` e captura de ecrã ou ligação para a branch publicada.
 
 ## Referência oficial
 
