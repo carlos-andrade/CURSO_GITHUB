@@ -5,7 +5,7 @@
 > Repositório oficial: https://github.com/carlos-andrade/CURSO_GITHUB  
 > Área: REGISTOS  
 > Finalidade: separar trabalho planeado, escrito, testado e validado.  
-> Estado: baseline inicial em 2026-10-09.
+> Última atualização: 2026-10-09.
 
 ## Regras de estado
 
@@ -14,29 +14,45 @@
 - **Em revisão:** conteúdo está a ser verificado quanto à precisão, segurança e clareza.
 - **Testado:** os passos foram executados no ambiente descrito.
 - **Validado:** critérios de aceitação, ligações e evidências foram verificados.
-- **Publicado:** conteúdo validado está disponível na branch principal.
+- **Publicado:** conteúdo está disponível na branch principal.
 
-Não usar “concluído” como sinónimo de “escrito”. Se uma execução real não foi possível, registar essa limitação.
+A validação automática de Markdown não prova que uma pessoa executou todos os exercícios. Nunca declarar uma lição testada apenas porque o ficheiro existe ou porque o workflow passou.
 
 ## Roadmap
 
-| Prioridade | Entrega | Critério de saída | Estado inicial |
+| Prioridade | Entrega | Critério de saída | Estado em 2026-10-09 |
 |---|---|---|---|
-| P0 | Padrão editorial e método de aprendizagem | Modelo de lição, critérios e registos consistentes | Em implementação |
-| P1 | Módulo 00 completo | Preparação, estudo, segurança e diagnóstico utilizáveis por iniciante | Em revisão |
-| P2 | Módulos 01–02 | Exercícios web testáveis com evidências | Pendente de revisão sistemática |
-| P3 | Módulo 03 | Comandos testados, contexto explícito e recuperação segura | Pendente de teste |
-| P4 | Módulos 04–07 | Fluxo branch/PR, Issues, Markdown e revisão demonstrados | Pendente de teste |
-| P5 | Módulos 08–09 | Workflow validado e práticas de segurança verificadas | Pendente de teste |
-| P6 | Módulos 10–11 | Publicação, API e automação com limites claros | Pendente de teste |
+| P0 | Padrão editorial e método | Modelo de lição, critérios e registos consistentes | Publicado |
+| P1 | Módulo 00 | Preparação, estudo, progressão e diagnóstico para iniciantes | Conteúdo publicado; prática do aluno pendente |
+| P2 | Módulos 01–02 | Lições web com passos, critérios e evidências | Conteúdo reforçado; prática do aluno pendente |
+| P3 | Módulo 03 | Comandos testados, contexto explícito e recuperação segura | Pendente de revisão e teste |
+| P4 | Módulos 04–07 | Fluxo branch/PR, Issues, Markdown e revisão demonstrados | Pendente de revisão e teste |
+| P5 | Módulos 08–09 | Workflows e práticas de segurança verificados | Pendente de revisão e teste |
+| P6 | Módulos 10–11 | Publicação, API e automação com limites claros | Pendente de revisão e teste |
 | P7 | Projeto final | Critérios cumpridos e evidências registadas | Pendente |
-| P8 | Auditoria global | Ligações, navegação, consistência e automatização verificadas | Pendente |
+| P8 | Auditoria global | Ligações, navegação, consistência e automatização verificadas | Parcial: verificação automática de Markdown ativa |
 
-## Registo de execução
+## Automatização publicada
 
-### 2026-10-09 — Reforço da aplicabilidade
+- Workflow: [Validar documentação do curso](../.github/workflows/validar-curso.yml).
+- Validador: [`../scripts/validar_curso.py`](../scripts/validar_curso.py).
+- Eventos: push para `main`, Pull Requests destinados a `main` e execução manual.
+- Verificações: ficheiros Markdown não vazios, título H1 e destinos de ligações locais existentes e dentro do repositório.
+- Execução observada: o workflow concluiu com sucesso e validou 64 ficheiros Markdown; a verificação não testa o conteúdo factual das lições nem substitui a execução dos exercícios.
 
-- **Objetivo:** tornar o curso mais prático, progressivo e seguro.
-- **Entregas desta fase:** plano de estudo, guia de diagnóstico, padrão editorial e roadmap explícito.
-- **Limitação:** a existência de ficheiros não prova que todas as lições ou comandos tenham sido testados em ambiente real.
-- **Próxima ação:** desenvolver e testar o módulo inicial; aplicar o padrão aos restantes módulos sem declarar validações não realizadas.
+## Registo de execução — 2026-10-09
+
+- Reforçado o README principal com instruções de início, roadmap, método e critérios de conclusão.
+- Desenvolvidos o plano de estudo e o guia de resolução de problemas.
+- Criado um modelo editorial reutilizável para lições.
+- Reforçadas as lições dos módulos 01 e 02 com resultados esperados, práticas guiadas, exercícios autónomos e critérios objetivos.
+- Criado o exercício integrador EX-007 para construir um README útil.
+- Melhorados os modelos e os registos de progresso.
+- Adicionado um workflow de validação documental; as primeiras execuções detetaram um modelo sem título H1, que foi corrigido. A execução posterior passou.
+
+## Próximas ações
+
+1. Rever e testar as lições e exercícios dos módulos 01–02 num repositório de treino.
+2. Aplicar o mesmo padrão ao módulo 03, com comandos e resultados esperados verificados.
+3. Prosseguir módulo a módulo, mantendo evidências e atualizando este roadmap após cada validação real.
+4. Fazer auditoria final de links, precisão, segurança, acessibilidade e navegação.
