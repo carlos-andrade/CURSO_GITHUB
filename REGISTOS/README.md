@@ -1,13 +1,19 @@
 # Registos do curso
 
-> Projeto: CURSO_GITHUB | Área: registos | Estado: criada
+> **Cabeçalho histórico**  
+> Projeto: CURSO_GITHUB  
+> Repositório oficial: https://github.com/carlos-andrade/CURSO_GITHUB  
+> Área: REGISTOS  
+> Finalidade: manter progresso, decisões e evidências auditáveis.  
+> Estado: catálogo atualizado.
 
-Registar progresso, validações curriculares, decisões e relatórios de alterações estruturais. Cada registo deve indicar data, âmbito, estado e evidência.
+## Registos disponíveis
 
-Não registar credenciais, tokens, dados pessoais desnecessários ou informação privada de terceiros.
+- [`PROGRESSO_TEMPLATE.md`](PROGRESSO_TEMPLATE.md) — modelo para registar a execução de uma lição ou exercício.
+- [`ROADMAP_E_ESTADO.md`](ROADMAP_E_ESTADO.md) — prioridades, critérios de saída e estado real das entregas.
 
-## Registos previstos
-- Progresso por módulo.
-- Revisões de ligações e documentação oficial.
-- Alterações à estrutura curricular.
-- Validação dos exercícios.
+## Regras de registo
+
+Cada registo deve identificar data, âmbito, estado, resultado esperado, resultado observado, evidência e próxima ação. Diferenciar claramente conteúdo escrito, prática executada, teste realizado e validação concluída.
+
+Não registar credenciais, tokens, palavras-passe, dados pessoais desnecessários ou informação privada de terceiros. As evidências devem permitir confirmar o resultado sem expor dados sensíveis.
