@@ -41,7 +41,7 @@ Comandos devem ser copiados apenas depois de confirmar o diretório e o contexto
 
 ## Ligações
 
-Prefira texto descritivo, como `[Guia de instalação](02_PREPARAR_AMBIENTE.md)`, em vez de “clique aqui”. Ligações relativas facilitam a navegação dentro do repositório. Confirme maiúsculas, espaços, extensão e destino; alguns sistemas distinguem maiúsculas de minúsculas.
+Prefira texto descritivo, como `[Guia de instalação](../00_ORIENTACAO/02_PREPARAR_AMBIENTE.md)`, em vez de “clique aqui”. Ligações relativas facilitam a navegação dentro do repositório. Confirme maiúsculas, espaços, extensão e destino; alguns sistemas distinguem maiúsculas de minúsculas.
 
 ## Acessibilidade e legibilidade
 
