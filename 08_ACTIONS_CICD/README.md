@@ -1,13 +1,25 @@
 # 08 — GitHub Actions e CI/CD
 
-> Projeto: CURSO_GITHUB | Módulo 08 | Estado: estrutura inicial
+> **Cabeçalho histórico**  
+> Projeto: CURSO_GITHUB  
+> Repositório: https://github.com/carlos-andrade/CURSO_GITHUB  
+> Módulo: 08 — GitHub Actions e CI/CD  
+> Finalidade: automatizar verificações e compreender os riscos de execução.  
+> Estado: lições desenvolvidas; workflow de treino e auditoria prática pendentes.  
+> Última atualização: 2026-10-09.
 
-## Conteúdo
-- Workflows YAML, eventos, jobs, steps, runners e actions.
-- Testes automatizados, artifacts, logs e diagnóstico.
-- Permissões mínimas e proteção de segredos.
+## Sequência de lições
 
-## Exercício
-Criar um workflow simples num repositório de treino, executá-lo e inspecionar resumo e logs. Documentar uma falha segura e a respetiva correção.
+1. [Workflows, eventos, jobs e steps](01_WORKFLOWS_EVENTOS_JOBS.md)
+2. [Diagnóstico, permissões e segurança](02_DIAGNOSTICO_E_SEGURANCA.md)
 
-Referência: https://docs.github.com/en/actions
+## Critérios de conclusão
+
+- [ ] Criar um workflow YAML em `.github/workflows/`.
+- [ ] Distinguir evento, job, step, runner e action.
+- [ ] Executar e inspecionar uma execução real.
+- [ ] Diagnosticar uma falha controlada a partir dos logs.
+- [ ] Limitar permissões e proteger segredos.
+- [ ] Avaliar actions externas e artefactos.
+
+Referência oficial: https://docs.github.com/en/actions
