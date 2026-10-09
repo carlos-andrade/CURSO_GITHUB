@@ -1,3 +1,11 @@
+# Modelo de Pull Request
+
+> **Cabeçalho histórico**  
+> Projeto: CURSO_GITHUB  
+> Repositório oficial: https://github.com/carlos-andrade/CURSO_GITHUB  
+> Tipo: modelo reutilizável de Pull Request  
+> Finalidade: descrever uma alteração e demonstrar a sua validação.
+
 ## Objetivo
 Descrever a razão desta alteração.
 
